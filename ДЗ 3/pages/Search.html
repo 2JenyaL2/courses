@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head> 
+<h1 align="center">Поиск</h1>
+<body>
+    <form method="post" action="input5.php">
+    <p><b>Тип кузова</b></p>
+    <p><input type="checkbox" name="option1" value="a1" checked>Седан<Br>
+        <input type="checkbox"name="option2" value="a2">Внедорожник<Br>
+    <input type="checkbox"name="option3" value="a3">Кроссовер<br>
+    </form>
+    
+    <form method="post" action="input5.php">
+        <p><b>Марка авто</b></p>
+        <p><input type="checkbox" name="option1" value="a1" checked>BMW<Br>
+            <input type="checkbox"name="option2" value="a2">MERCEDES<Br>
+        <input type="checkbox"name="option3" value="a3">AUDI<br>
+        </form>
+    
+    <form method="post" action="input5.php">
+        <p><b>Страна производитель</b></p>
+        <p><input type="checkbox" name="option1" value="a1" checked>Германия<Br>
+        </form>
+   
+     <form method="post" action="input5.php">
+        <p><b>Цена от 0$ до 100к$</b></p> 
+        <p><input type="range" min="0$" max="200.000$"></p>
+        </select></p>
+    </form>
+
+    <form method="post" action="input5.php">
+        <p><b>Год выпуска (от и до)</b></p> 
+        <form action="select1.php" method="post">
+        <p><select size="3" multiple name="Manufacture Year">
+         <option disabled>Выбери год выпуска</option>
+         <option value="Under 2000">1900год-2000год</option>
+         <option selected value="Above 2000">2000год-2023год</option>
+        </select></p> 
+    </form>
+
+   <form method="post" action="input5.php">
+        <p><b>Состояние</b></p> 
+        <form action="select1.php" method="post">
+        <p><select size="3" multiple name="title">
+         <option disabled>Выбери состояние</option>
+         <option value="title.1">Не бита, не крашена</option>
+         <option selected value="title.2">Тотал</option>
+        </select></p>
+    </form>
+    
+    <form method="post" action="input5.php">
+        <p><b>Тип топлива</b></p>
+        <p><input type="checkbox" name="option1" value="a1" checked>Бензин<Br>
+        <input type="checkbox"name="option2" value="a2">Дизель<Br>
+        <input type="checkbox"name="option3" value="a3">Электро<br>
+        </form>
+
+     <form method="post" action="input5.php">
+        <p><b>Тип коробки передач</b></p>
+        <p><input type="checkbox" name="option1" value="a1" checked>Автомат<Br>
+        <input type="checkbox"name="option2" value="a2">Механика<Br>
+        </form>
+
+        <form method="post" action="input5.php">
+            <p><b>Цвет</b></p> </form>
+            <form action="select1.php" method="post">
+            <p><select size="3" multiple name="title">
+             <option disabled>Выбери цвет</option>
+             <option value="title.1">Синий</option>
+             <option selected value="title.2">Желтый</option>
+            </select></p>    
+            
+        <form method="post"> <p><b>Выбери опции</b></p>
+<p><input type="checkbox" name="option1" value="a1">Кожаный салон
+    <input type="checkbox" name="option2" value="a2">Панорамная крыша
+    <input type="checkbox" name="option3" value="a3">Литые диски
+    <input type="checkbox" name="option4" value="a4">Выпускной коллектор в подарок!
+</p>
+
+
+        </form>
+
+    <form action="textarea1.php" method="post">
+     <p><b>Пожалуйста, оставьте комментарий:</b></p>
+     <p><textarea rows="10" cols="45" name="text"></textarea></p>
+     <p><input type="submit" value="Отправить"></p>
+   </form>
+</body>
+</html>
